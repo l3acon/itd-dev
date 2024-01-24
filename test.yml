@@ -1,0 +1,6 @@
+- name: do a thing
+  hosts: winvm1
+  tasks:
+    - name: do a message
+      anisble.builtin.debug:
+        msg: "Hello from {{ ansible_hostname }}"
