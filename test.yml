@@ -1,5 +1,5 @@
 - name: do a thing
-  hosts: winvm1
+  hosts: wintest1
   tasks:
     - name: do a message
       ansible.builtin.debug:
